@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wraper{
+    background-color: cyan;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+div div{
+    background-color: pink;
+    width: calc(94%/3);
+    padding: 15px;
+    text-align: center;
+    margin: 1%;
+}
+.three{
+    width: calc(2/3*97%);
+
+}

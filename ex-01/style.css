@@ -1,0 +1,19 @@
+.contaenir{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+   
+    
+}
+.contaenir>div{
+    background-color:#00FFFF;
+    margin: 15px;
+    padding: 10px;
+    
+}
+.header{
+    display: flex;
+    background-color: purple;
+    justify-content: center;
+    color: white;
+}
